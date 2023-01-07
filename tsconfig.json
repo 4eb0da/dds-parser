@@ -1,0 +1,24 @@
+{
+    "compilerOptions": {
+		"allowSyntheticDefaultImports": true,
+		"forceConsistentCasingInFileNames": true,
+		"isolatedModules": true,
+        "module": "esnext",
+        "target": "es5",
+        // "allowJs": true,
+        "resolveJsonModule": true,
+        "esModuleInterop": true,
+        "moduleResolution": "node",
+		"noEmitOnError": true,
+		"noUnusedLocals": true,
+		"noUnusedParameters": true,
+        "pretty": true,
+        "noEmit": true,
+        "lib": ["DOM"],
+        "strict": true
+    },
+    "exclude": [
+        "node_modules",
+        "dist"
+    ]
+}

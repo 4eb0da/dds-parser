@@ -1,0 +1,59 @@
+{
+  "name": "dds-parser",
+  "version": "1.0.0-next",
+  "description": "Simple dds heeader and data parser",
+  "keywords": [
+    "dds",
+    "parser",
+    "webgl",
+    "typescript",
+    "front-end",
+    "backend"
+  ],
+  "homepage": "https://github.com/4eb0da/dds-parser",
+  "bugs": {
+    "url": "https://github.com/4eb0da/dds-parser/issues"
+  },
+  "repository": "github:4eb0da/dds-parser",
+  "author": "4eb0da",
+  "license": "MIT",
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "scripts": {
+    "prepublishOnly": "npm run build-lib",
+    "prepare": "husky install",
+    "build-lib": "rm -rf dist && rollup --config rollup.config.ts --configPlugin typescript",
+    "build-lib-watch": "rm -rf dist && rollup --config rollup.config.ts --configPlugin typescript --watch",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint --ext .ts ."
+  },
+  "files": [
+    "dist/*"
+  ],
+  "main": "dist/dds-parser.js",
+  "module": "dist/es/dds-parser.js",
+  "typings": "dist/dds-parser.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/dds-parser.d.ts",
+      "require": "./dist/dds-parser.js",
+      "import": "./dist/es/dds-parser.js"
+    },
+    "./dist/": "./dist/"
+  },
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "15.0.1",
+    "@rollup/plugin-terser": "0.3.0",
+    "@rollup/plugin-typescript": "11.0.0",
+    "@types/eslint": "8.4.10",
+    "@types/node": "18.11.18",
+    "@typescript-eslint/eslint-plugin": "5.48.0",
+    "@typescript-eslint/parser": "5.48.0",
+    "eslint": "8.31.0",
+    "husky": "8.0.3",
+    "rollup": "3.9.1",
+    "rollup-plugin-dts": "5.1.0",
+    "typescript": "4.9.4"
+  }
+}
