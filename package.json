@@ -1,6 +1,6 @@
 {
   "name": "dds-parser",
-  "version": "1.0.0-next",
+  "version": "1.0.0",
   "description": "Simple dds heeader and data parser",
   "keywords": [
     "dds",
