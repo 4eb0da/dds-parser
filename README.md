@@ -26,6 +26,13 @@ const rgba = decodeDds(
 );
 ```
 
+## Supported formats
+
+* `dxt1`
+* `dxt3`
+* `dxt5`
+* `ati2`
+
 ## Thanks
 
 GhostWolf (aka flowtsohg)
