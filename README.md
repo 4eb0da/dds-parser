@@ -1,6 +1,6 @@
 # dds-parser
 DDS parser (header and raw data).
-Heavely based (copy-paste) on the [https://www.npmjs.com/package/parse-dds](parse-dds) and [https://github.com/flowtsohg/mdx-m3-viewer](mdx-m3-viewer).
+Heavely based (copy-paste) on the [parse-dds](https://www.npmjs.com/package/parse-dds) and [mdx-m3-viewer](https://github.com/flowtsohg/mdx-m3-viewer).
 
 ## Installation
 
