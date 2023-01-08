@@ -35,6 +35,6 @@ const rgba = decodeDds(
 
 ## Thanks
 
-GhostWolf (aka flowtsohg)
-Jam3
-toji
+* GhostWolf (aka flowtsohg)
+* Jam3
+* toji
